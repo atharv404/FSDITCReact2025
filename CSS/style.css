@@ -1,0 +1,25 @@
+.container{
+    background-color: antiquewhite;
+    color: black;
+}
+.h2,p{
+    text-align: center;
+    font-family: monospace;
+}
+div + p {
+    color: red;
+    background-color: black
+    font-family; monospace
+
+
+}
+p:hover {
+    color: blue;
+    background-color: gray;
+    cursor: pointer;
+}
+p::after{
+    color: blueviolet;
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
