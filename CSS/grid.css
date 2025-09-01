@@ -1,0 +1,28 @@
+.box{
+    display: grid;
+    height: 450px;
+    grid-template-columns: 20% 40% 20% 20%;
+    grid-template-rows: 200px 500px 200px;
+    background-color: blueviolet;
+}
+
+.box1{
+    border: 1px dotted red;
+    background-color: rgb(133, 155, 255);
+    grid-template-columns: ;
+
+}
+.box2{
+    border: 1px dotted red;
+    background-color: rgb(89, 128, 255);
+
+}
+.box3{
+    border: 1px dotted red;
+    background-color: rgb(61, 177, 255);
+
+}
+.box4{
+    border: 1px dotted red;
+    background-color: rgb(18, 255, 255);
+}
