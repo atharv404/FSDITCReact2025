@@ -1,17 +1,99 @@
-.container{
-    background-color: rgb(153, 224, 230);
-    display: flex;
-    flex-direction: row;
-    border: 2px solid black;
-    height: auto;
-    gap: 23px;
-    flex-wrap: nowrap;
-    
+.box{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 400px 500px 200px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px dotted red;
+    background-color: aquamarine;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box1{
+border: 1px dotted red;
+background-color: aquamarine;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+/* grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2; */
+gap: 10px;
+}
+.box11{
+width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color: chartreuse;
+margin-top: 20px;
+margin-left: 10px;
+
 
 }
+
+.box12{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:bisque;
+margin-top: 20px;
+}
+.box13{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:cornsilk;
+margin-left: 10px;
+}
+
+.box14{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:darkgrey
+}
+.box2{
+border: 1px dotted red;
+background-color:beige;
+}
+
+.box3{
+border: 1px dotted red;
+background-color:burlywood;
+}
+.box4{
+border: 1px dotted red;
+background-color: chocolate;
+}
+
+
+/* .container{
+    background-color: rgb(153, 224, 230);
+    display: flex; */
+    /* flex-direction: row;
+    border: 2px solid black;
+    height: 200px;
+    gap: 23px;
+    flex-wrap: nowrap; */
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 160px 160px 160px;    
+
+}
+.header{
+    grid-column-start: 1;
+        grid-column-end: 5;
+    grid-row-start: 1;
+        grid-row-end: 2;}
 .child1{
     background-color: rgb(37, 206, 164);
-    height: 102px;
+    height: auto;
     width: 102px;
     font-family: monospace, bold;
 }
@@ -35,4 +117,4 @@
     height: 102px;
     width: 102px;
 
-}
+} */
